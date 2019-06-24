@@ -1,6 +1,8 @@
-using Test, Pkg, UUIDs, HTTP
+using Pkg
 
 Pkg.instantiate()
+
+using Test, UUIDs, HTTP
 
 const REGISTRY_PATH = joinpath(@__DIR__, "..", "Registry.toml")
 const VALID_METHODS = ("hosted", "git-repo", "vendored")
