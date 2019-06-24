@@ -1,4 +1,9 @@
 [e5e0dc1b-0480-54bc-9374-aad01c23163d]
-    name = "Juno"
-    method = "hosted"
-    location = "https://docs.junolab.org/latest"
+name = "Juno"
+location = "https://junolabs.org/latest"
+method = "hosted"
+
+[c52e3926-4ff0-5f6e-af25-54175e0327b1]
+name = "Atom"
+location = "https://junolabs.org/latest"
+method = "hosted"

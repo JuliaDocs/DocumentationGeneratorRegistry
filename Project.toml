@@ -1,0 +1,9 @@
+name = "DocumentationGeneratorRegistry"
+uuid = "8f0d3306-d70b-5309-1234-24bb6ab47850"
+repo = "https://github.com/JuliaDocs/DocumentationGeneratorRegistry.git"
+
+[deps]
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
