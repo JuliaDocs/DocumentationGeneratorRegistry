@@ -39,16 +39,18 @@ function testkeyvalidity(registry, key)
                 req = try
                     HTTP.request("GET", uri)
                     if req.status > 400
-                        @warn("""
+                        @error("""
                               `$(uri)` returned `$(req.status)` for `$(name)` ($(uuid)).
                               Please double check the URL.
                               """)
+                        return false
                     end
                 catch err
-                    @warn("""
+                    @error("""
                           `$(uri)` request failed for `$(name)` ($(uuid)).
                           Please double check the URL.
                           """)
+                    return false
                 end
             else
                 @error("Invalid URL `$(uri)` for `$(name)` ($(uuid)).")
