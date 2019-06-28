@@ -13,11 +13,6 @@ function testkeyvalidity(registry, key)
     uuid = UUID(key)
 
     entry = registry[key]
-
-    if !haskey(entry, "name")
-        @error("`name` entry missing for `$(uuid)`.")
-        return false
-    end
     name = entry["name"]
 
     method = ""
@@ -36,19 +31,21 @@ function testkeyvalidity(registry, key)
         uri = entry["location"]
         if method in ("git-repo", "hosted")
             if isurlish(uri)
-                req = try
-                    HTTP.request("GET", uri)
+                try
+                    req = HTTP.request("GET", uri)
                     if req.status > 400
-                        @warn("""
+                        @error("""
                               `$(uri)` returned `$(req.status)` for `$(name)` ($(uuid)).
                               Please double check the URL.
                               """)
+                        return false
                     end
                 catch err
-                    @warn("""
+                    @error("""
                           `$(uri)` request failed for `$(name)` ($(uuid)).
                           Please double check the URL.
                           """)
+                    return false
                 end
             else
                 @error("Invalid URL `$(uri)` for `$(name)` ($(uuid)).")
@@ -68,12 +65,11 @@ function testkeyvalidity(registry, key)
     return true
 end
 
-
 @testset "Registry Validity" begin
     @test isfile(REGISTRY_PATH)
     toml = Pkg.TOML.parsefile(REGISTRY_PATH)
     @test collect(unique(keys(toml))) == collect(keys(toml))
-    @testset "Package: $(key)" for key in keys(toml)
+    @testset "Package: $(toml[key]["name"]) ($(key))" for key in keys(toml)
         isvalid = testkeyvalidity(toml, key)
         @test isvalid
     end
