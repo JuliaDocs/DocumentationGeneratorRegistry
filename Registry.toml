@@ -25,8 +25,8 @@ method = "hosted"
 
 [0c46a032-eb83-5123-abaf-570d42b7fbaa]
 name = "DifferentialEquations"
-location = "http://docs.juliadiffeq.org/stable/"
-method = "hosted"
+location = "https://github.com/JuliaDiffEq/DiffEqDocs.jl.git"
+method = "git-repo"
 
 [c52e3926-4ff0-5f6e-af25-54175e0327b1]
 name = "Atom"
