@@ -13,11 +13,6 @@ function testkeyvalidity(registry, key)
     uuid = UUID(key)
 
     entry = registry[key]
-
-    if !haskey(entry, "name")
-        @error("`name` entry missing for `$(uuid)`.")
-        return false
-    end
     name = entry["name"]
 
     method = ""
@@ -70,12 +65,11 @@ function testkeyvalidity(registry, key)
     return true
 end
 
-
 @testset "Registry Validity" begin
     @test isfile(REGISTRY_PATH)
     toml = Pkg.TOML.parsefile(REGISTRY_PATH)
     @test collect(unique(keys(toml))) == collect(keys(toml))
-    @testset "Package: $(key)" for key in keys(toml)
+    @testset "Package: $(toml[key]["name"]) ($(key))" for key in keys(toml)
         isvalid = testkeyvalidity(toml, key)
         @test isvalid
     end
