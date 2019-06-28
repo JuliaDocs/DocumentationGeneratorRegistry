@@ -36,8 +36,8 @@ function testkeyvalidity(registry, key)
         uri = entry["location"]
         if method in ("git-repo", "hosted")
             if isurlish(uri)
-                req = try
-                    HTTP.request("GET", uri)
+                try
+                    req = HTTP.request("GET", uri)
                     if req.status > 400
                         @error("""
                               `$(uri)` returned `$(req.status)` for `$(name)` ($(uuid)).
