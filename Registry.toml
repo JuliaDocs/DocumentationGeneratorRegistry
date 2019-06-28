@@ -1,6 +1,6 @@
 [e5e0dc1b-0480-54bc-9374-aad01c23163d]
 name = "Juno"
-location = "https://junolab.org/latest"
+location = "https://docs.junolab.org/latest"
 method = "hosted"
 
 [112f6efa-9a02-5b7d-90c0-432ed331239a]
@@ -30,5 +30,5 @@ method = "git-repo"
 
 [c52e3926-4ff0-5f6e-af25-54175e0327b1]
 name = "Atom"
-location = "https://junolab.org/latest"
+location = "https://docs.junolab.org/latest"
 method = "hosted"
