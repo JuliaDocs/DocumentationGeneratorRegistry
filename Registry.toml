@@ -32,3 +32,8 @@ method = "git-repo"
 name = "Atom"
 location = "https://docs.junolab.org/latest"
 method = "hosted"
+
+[3e1990a7-5d81-5526-99ce-9ba3ff248f21]
+name = "Hecke"
+location = "https://thofma.github.io/Hecke.jl/latest/"
+method = "hosted"
