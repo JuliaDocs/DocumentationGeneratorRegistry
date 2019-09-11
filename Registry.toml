@@ -37,3 +37,8 @@ method = "hosted"
 name = "Hecke"
 location = "https://thofma.github.io/Hecke.jl/latest/"
 method = "hosted"
+
+[1222c4b2-2114-5bfd-aeef-88e4692bbb3e]
+name = "julia"
+location = "https://docs.julialang.org"
+method = "hosted"
