@@ -47,3 +47,8 @@ method = "hosted"
 name = "MonteCarloMeasurements"
 location = "https://baggepinnen.github.io/MonteCarloMeasurements.jl/stable/"
 method = "hosted"
+
+[ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a]
+name = "Makie"
+location = "https://makie.juliaplots.org/stable"
+method = "hosted"
