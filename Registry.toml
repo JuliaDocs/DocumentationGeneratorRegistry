@@ -42,3 +42,8 @@ method = "hosted"
 name = "julia"
 location = "https://docs.julialang.org"
 method = "hosted"
+
+[0987c9cc-fe09-11e8-30f0-b96dd679fdca]
+name = "MonteCarloMeasurements"
+location = "https://baggepinnen.github.io/MonteCarloMeasurements.jl/stable/"
+method = "hosted"
