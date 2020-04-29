@@ -53,6 +53,11 @@ name = "Query"
 location = "https://www.queryverse.org/Query.jl/stable/"
 method = "hosted"
 
+[587475ba-b771-5e3f-ad9e-33799f191a9c]
+name = "Flux"
+location = "https://fluxml.ai/Flux.jl/stable/"
+method = "hosted"
+
 [0c46a032-eb83-5123-abaf-570d42b7fbaa]
 name = "DifferentialEquations"
 location = "https://github.com/JuliaDiffEq/DiffEqDocs.jl.git"
