@@ -62,3 +62,8 @@ method = "hosted"
 name = "DifferentialEquations"
 location = "https://github.com/JuliaDiffEq/DiffEqDocs.jl.git"
 method = "git-repo"
+
+[4b11ee91-296f-5714-9832-002c20994614]
+name = "Gaston"
+location = "https://mbaz.github.io/Gaston.jl/stable/"
+method = "hosted"
