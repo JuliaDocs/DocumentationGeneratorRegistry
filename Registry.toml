@@ -67,3 +67,8 @@ method = "git-repo"
 name = "Gaston"
 location = "https://mbaz.github.io/Gaston.jl/stable/"
 method = "hosted"
+
+[b60c06c0-7e54-11e8-3788-4bd722d65317]
+name = "CMBLensing"
+location = "https://cosmicmar.com/CMBLensing.jl/stable/"
+method = "hosted"
