@@ -44,7 +44,7 @@ function testkeyvalidity(registry, key)
                     @error("""
                           `$(uri)` request failed for `$(name)` ($(uuid)).
                           Please double check the URL.
-                          """)
+                          """, exception=(err, catch_backtrace()))
                     return false
                 end
             else
