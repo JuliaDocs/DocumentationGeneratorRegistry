@@ -77,3 +77,8 @@ method = "hosted"
 name = "Omniscape"
 location = "https://docs.circuitscape.org/Omniscape.jl/stable/"
 method = "hosted"
+
+[ebb8d67c-85b4-416c-b05f-5f409e808f32]
+name = "BSeries"
+location = "https://ranocha.de/BSeries.jl/stable/"
+method = "hosted"
