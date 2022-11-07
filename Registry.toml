@@ -60,8 +60,8 @@ method = "hosted"
 
 [0c46a032-eb83-5123-abaf-570d42b7fbaa]
 name = "DifferentialEquations"
-location = "https://github.com/JuliaDiffEq/DiffEqDocs.jl.git"
-method = "git-repo"
+location = "https://docs.sciml.ai/"
+method = "hosted"
 
 [4b11ee91-296f-5714-9832-002c20994614]
 name = "Gaston"
