@@ -1,16 +1,26 @@
-[e5e0dc1b-0480-54bc-9374-aad01c23163d]
-name = "Juno"
-location = "https://docs.junolab.org/latest"
+[77a26b50-5914-5dd7-bc55-306e6241c503]
+name = "DiffEqNoiseProcess"
+location = "https://docs.sciml.ai"
 method = "hosted"
 
-[1222c4b2-2114-5bfd-aeef-88e4692bbb3e]
-name = "julia"
-location = "https://docs.julialang.org"
+[1ed8b502-d754-442c-8d5d-10ac956f44a1]
+name = "SciMLSensitivity"
+location = "https://docs.sciml.ai"
 method = "hosted"
 
-[1c8ee90f-4401-5389-894e-7a04a3dc0f4d]
-name = "IterableTables"
-location = "https://www.queryverse.org/IterableTables.jl/stable/"
+[7e49a35a-f44a-4d26-94aa-eba1b4ca6b47]
+name = "RuntimeGeneratedFunctions"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[5411918f-e61c-4722-a33e-8517a813f4bd]
+name = "QuantumNLDiffEq"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[c0aeaf25-5076-4817-a8d5-81caf7dfa961]
+name = "SciMLOperators"
+location = "https://docs.sciml.ai"
 method = "hosted"
 
 [dcc97b0b-8ce5-5539-9008-bb190f959ef6]
@@ -18,29 +28,34 @@ name = "GeoStats"
 location = "https://juliaearth.github.io/GeoStats.jl/stable"
 method = "hosted"
 
-[112f6efa-9a02-5b7d-90c0-432ed331239a]
-name = "VegaLite"
-location = "https://www.queryverse.org/VegaLite.jl/stable/"
+[65888b18-ceab-5e60-b2b9-181511a3b968]
+name = "ParameterizedFunctions"
+location = "https://docs.sciml.ai"
 method = "hosted"
 
-[ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a]
-name = "Makie"
-location = "https://makie.juliaplots.org/stable"
+[afe9f18d-7609-4d0e-b7b7-af0cb72b8ea8]
+name = "SciMLExpectations"
+location = "https://docs.sciml.ai"
 method = "hosted"
 
-[c52e3926-4ff0-5f6e-af25-54175e0327b1]
-name = "Atom"
-location = "https://docs.junolab.org/latest"
+[e0ca9c66-1f9e-11ec-127a-1304ce62169c]
+name = "DifferenceEquations"
+location = "https://docs.sciml.ai"
 method = "hosted"
 
-[0987c9cc-fe09-11e8-30f0-b96dd679fdca]
-name = "MonteCarloMeasurements"
-location = "https://baggepinnen.github.io/MonteCarloMeasurements.jl/stable/"
+[09606e27-ecf5-54fc-bb29-004bd9f985bf]
+name = "ODEInterfaceDiffEq"
+location = "https://docs.sciml.ai"
 method = "hosted"
 
-[3e1990a7-5d81-5526-99ce-9ba3ff248f21]
-name = "Hecke"
-location = "https://thofma.github.io/Hecke.jl/latest/"
+[1dea7af3-3e70-54e6-95c3-0bf5283fa5ed]
+name = "OrdinaryDiffEq"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[b4db0fb7-de2a-5028-82bf-5021f5cfa881]
+name = "ReactionNetworkImporters"
+location = "https://docs.sciml.ai"
 method = "hosted"
 
 [91a5bcdd-55d7-5caf-9e0b-520d859cae80]
@@ -48,19 +63,19 @@ name = "Plots"
 location = "http://docs.juliaplots.org/latest/"
 method = "hosted"
 
-[1a8c2f83-1ff3-5112-b086-8aa67b057ba1]
-name = "Query"
-location = "https://www.queryverse.org/Query.jl/stable/"
-method = "hosted"
-
-[587475ba-b771-5e3f-ad9e-33799f191a9c]
-name = "Flux"
-location = "https://fluxml.ai/Flux.jl/stable/"
-method = "hosted"
-
 [0c46a032-eb83-5123-abaf-570d42b7fbaa]
 name = "DifferentialEquations"
 location = "https://docs.sciml.ai/"
+method = "hosted"
+
+[c030b06c-0b6d-57c2-b091-7029874bd033]
+name = "ODE"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[e5e0dc1b-0480-54bc-9374-aad01c23163d]
+name = "Juno"
+location = "https://docs.junolab.org/latest"
 method = "hosted"
 
 [4b11ee91-296f-5714-9832-002c20994614]
@@ -68,9 +83,14 @@ name = "Gaston"
 location = "https://mbaz.github.io/Gaston.jl/stable/"
 method = "hosted"
 
-[b60c06c0-7e54-11e8-3788-4bd722d65317]
-name = "CMBLensing"
-location = "https://cosmicmar.com/CMBLensing.jl/stable/"
+[1c8ee90f-4401-5389-894e-7a04a3dc0f4d]
+name = "IterableTables"
+location = "https://www.queryverse.org/IterableTables.jl/stable/"
+method = "hosted"
+
+[1130ab10-4a5a-5621-a13d-e4788d82bd4c]
+name = "DiffEqParamEstim"
+location = "https://docs.sciml.ai"
 method = "hosted"
 
 [a38d70fc-99f5-11e9-1e3d-cbca093024c3]
@@ -78,7 +98,217 @@ name = "Omniscape"
 location = "https://docs.circuitscape.org/Omniscape.jl/stable/"
 method = "hosted"
 
+[537997a7-5e4e-5d89-9595-2241ea00577e]
+name = "AbstractPlotting"
+location = "https://docs.makie.org"
+method = "hosted"
+
+[5913d0e6-5bb6-45e3-8a06-341cf4fd0203]
+name = "OperatorLearning"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[6fc51010-71bc-11e9-0e15-a3fcc6593c49]
+name = "Surrogates"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[e409e4f3-bfea-5376-8464-e040bb5c01ab]
+name = "PoissonRandom"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[684fba80-ace3-11e9-3d08-3bc7ed6f96df]
+name = "SparsityDetection"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a]
+name = "Makie"
+location = "https://docs.makie.org"
+method = "hosted"
+
+[58bc7355-f626-4c51-96f2-1f8a038f95a2]
+name = "IRKGaussLegendre"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[7c2d2b1e-3dd4-11ea-355a-8f6a8116e294]
+name = "ReservoirComputing"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[9fdde737-9c7f-55bf-ade8-46b3f136cc48]
+name = "DiffEqOperators"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[3e1990a7-5d81-5526-99ce-9ba3ff248f21]
+name = "Hecke"
+location = "https://thofma.github.io/Hecke.jl/latest/"
+method = "hosted"
+
+[186dfeec-b415-5c13-8e76-5fbf19f56f9b]
+name = "FEniCS"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[789caeaf-c7a9-5a7d-9973-96adeb23e2a0]
+name = "StochasticDiffEq"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[2b5f629d-d688-5b77-993f-72d75c75574e]
+name = "DiffEqBase"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[aedffcd0-7271-4cad-89d0-dc628f76c6d3]
+name = "Static"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[754358af-613d-5f8d-9788-280bf1605d4c]
+name = "DEDataArrays"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[abcecc63-2b08-419c-80c4-c63dca6fa478]
+name = "MathML"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[055956cb-9e8b-5191-98cc-73ae4a59e68a]
+name = "DiffEqPhysics"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[2445eb08-9709-466a-b3fc-47e12bd697a2]
+name = "DataDrivenDiffEq"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[94925ecb-adb7-4558-8ed8-f975c56a0bf4]
+name = "MethodOfLines"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[34035eb4-37db-58ae-b003-a3202c898701]
+name = "DiffEqPDEBase"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[47965b36-3f3e-11e9-0dcf-4570dfd42a8c]
+name = "RootedTrees"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[1aa9af3a-2424-508f-bb7e-0626de155470]
+name = "BridgeDiffEq"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[e993076c-0cfd-5d6b-a1ac-36489fdf7917]
+name = "DASSL"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[0bca4576-84f4-4d90-8ffe-ffa030f20462]
+name = "SciMLBase"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[1222c4b2-2114-5bfd-aeef-88e4692bbb3e]
+name = "julia"
+location = "https://docs.julialang.org"
+method = "hosted"
+
+[165a45c3-f624-5814-8e85-3bdf39a7becd]
+name = "DASKR"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[7f7a1694-90dd-40f0-9382-eb1efda571ba]
+name = "Optimization"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[5a33fad7-5ce4-5983-9f5d-5f26ceab5c96]
+name = "GeometricIntegratorsDiffEq"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[ebbdde9d-f333-5424-9be2-dbf1e9acfb5e]
+name = "DiffEqBayes"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[112f6efa-9a02-5b7d-90c0-432ed331239a]
+name = "VegaLite"
+location = "https://www.queryverse.org/VegaLite.jl/stable/"
+method = "hosted"
+
+[c52e3926-4ff0-5f6e-af25-54175e0327b1]
+name = "Atom"
+location = "https://docs.junolab.org/latest"
+method = "hosted"
+
 [ebb8d67c-85b4-416c-b05f-5f409e808f32]
 name = "BSeries"
 location = "https://ranocha.de/BSeries.jl/stable/"
+method = "hosted"
+
+[b60c06c0-7e54-11e8-3788-4bd722d65317]
+name = "CMBLensing"
+location = "https://cosmicmar.com/CMBLensing.jl/stable/"
+method = "hosted"
+
+[0987c9cc-fe09-11e8-30f0-b96dd679fdca]
+name = "MonteCarloMeasurements"
+location = "https://baggepinnen.github.io/MonteCarloMeasurements.jl/stable/"
+method = "hosted"
+
+[57c578d5-59d4-4db8-a490-a9fc372d19d2]
+name = "HighDimPDE"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[587475ba-b771-5e3f-ad9e-33799f191a9c]
+name = "Flux"
+location = "https://fluxml.ai/Flux.jl/stable/"
+method = "hosted"
+
+[071ae1c0-96b5-11e9-1965-c90190d839ea]
+name = "DiffEqGPU"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[e2752cbe-bcf4-5895-8727-84ebc14a76bd]
+name = "MATLABDiffEq"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[505e40e9-d84e-434c-8501-7161967c02cb]
+name = "SciPyDiffEq"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[ccbc3e58-028d-4f4c-8cd5-9ae44345cda5]
+name = "JumpProcesses"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[1a8c2f83-1ff3-5112-b086-8aa67b057ba1]
+name = "Query"
+location = "https://www.queryverse.org/Query.jl/stable/"
+method = "hosted"
+
+[9672c7b4-1e72-59bd-8a11-6ac3964bc41f]
+name = "SteadyStateDiffEq"
+location = "https://docs.sciml.ai"
+method = "hosted"
+
+[31c91b34-3c75-11e9-0341-95557aab0344]
+name = "SciMLBenchmarks"
+location = "https://docs.sciml.ai"
 method = "hosted"
