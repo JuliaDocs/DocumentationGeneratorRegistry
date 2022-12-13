@@ -9,11 +9,20 @@ function yesno(query)
     return request(query, menu) == 1
 end
 
-function get_pkgs_in_general()
-    registries = Pkg.Types.collect_registries()
-    general = registries[findfirst(reg -> reg.uuid == UUID("23338594-aafe-5451-b93e-139f81909106"), registries)]
+if VERSION < v"1.7.0"
+    function get_pkgs_in_general()
+        registries = Pkg.Types.collect_registries()
+        general = registries[findfirst(reg -> reg.uuid == UUID("23338594-aafe-5451-b93e-139f81909106"), registries)]
 
-    return Pkg.Types.read_registry(joinpath(general.path, "Registry.toml"))["packages"]
+        return Pkg.Types.read_registry(joinpath(general.path, "Registry.toml"))["packages"]
+    end
+else
+    function get_pkgs_in_general()
+        registries = Pkg.Registry.reachable_registries()
+        general = registries[findfirst(reg -> reg.uuid == UUID("23338594-aafe-5451-b93e-139f81909106"), registries)]
+
+        return general.pkgs
+    end
 end
 
 function valid_location(method, location)
@@ -77,11 +86,12 @@ end
 function add_to_registry(pkg, general_pkgs, config = config)
     pkgs_with_name = String[]
     for (uuid, _pkg) in general_pkgs
-        _pkg["name"] == pkg && push!(pkgs_with_name, uuid)
+        name = VERSION < v"1.7.0" ? _pkg["name"] : _pkg.name
+        name == pkg && push!(pkgs_with_name, string(uuid))
     end
 
     if length(pkgs_with_name) == 0
-        printstyled("No package with name `$(pkg)` found in registry.", color=:red)
+        printstyled("No package with name `$(pkg)` found in registry. Skipping.\n ", color=:red)
         return false
     elseif length(pkgs_with_name) > 1
         menu = MultiSelectMenu(pkgs_with_name)
@@ -120,7 +130,8 @@ else
         main(ARGS)
     catch err
         println("\n")
-        printstyled("An error occured. Please revert any changes and try again.", color=:red)
+        printstyled("An error occured. Please revert any changes and try again.\n", color=:red)
+        @error "internal error" exception=(err, catch_backtrace())
     end
     println("Please commit your changes and open a PR.")
 end
