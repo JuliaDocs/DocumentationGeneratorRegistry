@@ -101,7 +101,7 @@ method = "hosted"
 [537997a7-5e4e-5d89-9595-2241ea00577e]
 name = "AbstractPlotting"
 location = "https://docs.makie.org"
-method = "vendored"
+method = "hosted"
 
 [5913d0e6-5bb6-45e3-8a06-341cf4fd0203]
 name = "OperatorLearning"
