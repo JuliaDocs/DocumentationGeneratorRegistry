@@ -125,7 +125,7 @@ method = "hosted"
 
 [ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a]
 name = "Makie"
-location = "https://makie.juliaplots.org/stable"
+location = "https://docs.makie.org"
 method = "hosted"
 
 [58bc7355-f626-4c51-96f2-1f8a038f95a2]
