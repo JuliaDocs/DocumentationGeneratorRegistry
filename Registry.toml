@@ -312,3 +312,8 @@ method = "hosted"
 name = "SciMLBenchmarks"
 location = "https://docs.sciml.ai"
 method = "hosted"
+
+[961ee093-0014-501f-94e3-6117800e7a78]
+name = "ModelingToolkit"
+location = "https://docs.sciml.ai/ModelingToolkit/stable/"
+method = "hosted"
