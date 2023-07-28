@@ -322,3 +322,8 @@ method = "hosted"
 name = "DiffEqSensitivity"
 location = "https://docs.sciml.ai/"
 method = "hosted"
+
+[ca382230-33be-11e9-0059-d981d03070e4]
+name = "PropCheck"
+location = "https://seelengrab.github.io/PropCheck.jl/stable/"
+method = "hosted"
