@@ -3,7 +3,8 @@
 [![CI](https://github.com/JuliaDocs/DocumentationGeneratorRegistry/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaDocs/DocumentationGeneratorRegistry/actions/workflows/CI.yml)
 
 This registry allows package authors to specify where to find and how to build the documentation for their
-packages displayed at [pkg.julialang.org](https://pkg.julialang.org/docs/).
+packages. This information is currently used to link package docs at [juliahub.com](https://juliahub.com). (This system
+was originally written for `pkg.julialang.org` which is now no longer used). 
 
 ## Usage
 Just add a new entry to `Registry.toml` by hand (see `Specifications` below) or with the provided `add_to_registry.jl` script:
