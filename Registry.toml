@@ -183,6 +183,11 @@ name = "DiffEqPhysics"
 location = "https://docs.sciml.ai"
 method = "hosted"
 
+[e30172f5-a6a5-5a46-863b-614d45cd2de4]
+name = "Documenter"
+location = "https://documenter.juliadocs.org/"
+method = "hosted"
+
 [2445eb08-9709-466a-b3fc-47e12bd697a2]
 name = "DataDrivenDiffEq"
 location = "https://docs.sciml.ai"
