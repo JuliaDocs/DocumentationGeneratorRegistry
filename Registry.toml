@@ -332,3 +332,8 @@ method = "hosted"
 name = "PropCheck"
 location = "https://seelengrab.github.io/PropCheck.jl/stable/"
 method = "hosted"
+
+[ae8d54c2-7ccd-5906-9d76-62fc9837b5bc]
+name = "Luxor"
+location = "https://juliagraphics.github.io/Luxor.jl/stable/"
+method = "hosted"
