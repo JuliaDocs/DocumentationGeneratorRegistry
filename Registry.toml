@@ -238,6 +238,11 @@ name = "SciMLBase"
 location = "https://docs.sciml.ai"
 method = "hosted"
 
+[92e0b95a-4011-435a-96f4-10064551ddbe]
+name = "IPUToolkit"
+location = "https://juliaipu.github.io/IPUToolkit.jl/"
+method = "hosted"
+
 [1222c4b2-2114-5bfd-aeef-88e4692bbb3e]
 name = "julia"
 location = "https://docs.julialang.org"
