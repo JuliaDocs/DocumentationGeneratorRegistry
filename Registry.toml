@@ -259,7 +259,7 @@ location = "https://juliamanifolds.github.io/ManifoldDiff.jl/stable/"
 method = "hosted"
 
 [1143c485-9b25-4e23-a65f-701df382ec90]
-name = "ManifoldDoffEq"
+name = "ManifoldDiffEq"
 location = "https://juliamanifolds.github.io/ManifoldDiffEq.jl/stable/"
 method = "hosted"
 
