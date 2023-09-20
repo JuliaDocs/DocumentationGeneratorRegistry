@@ -178,11 +178,6 @@ name = "DEDataArrays"
 location = "https://docs.sciml.ai"
 method = "hosted"
 
-[0703355e-b756-11e9-17c0-8b28908087d0]
-name = "DimensionalData"
-location = "https://rafaqz.github.io/DimensionalData.jl"
-method = "hosted"
-
 [a3a2b9e3-a471-40c9-b274-f788e487c689]
 name = "Rasters"
 location = "https://rafaqz.github.io/Rasters.jl"
@@ -251,6 +246,31 @@ method = "hosted"
 [7f7a1694-90dd-40f0-9382-eb1efda571ba]
 name = "Optimization"
 location = "https://docs.sciml.ai"
+method = "hosted"
+
+[af67fdf4-a580-4b9f-bbec-742ef357defd]
+name = "ManifoldDiff"
+location = "https://juliamanifolds.github.io/ManifoldDiff.jl/stable/"
+method = "hosted"
+
+[1143c485-9b25-4e23-a65f-701df382ec90]
+name = "ManifoldDoffEq"
+location = "https://juliamanifolds.github.io/ManifoldDiffEq.jl/stable/"
+method = "hosted"
+
+[5b8d5e80-5788-45cb-83d6-5e8f1484217d]
+name = "ManoptExamples"
+location = "https://juliamanifolds.github.io/ManoptExamples.jl/"
+method = "hosted"
+
+[1cead3c2-87b3-11e9-0ccd-23c62b72b94e]
+name = "Manifolds"
+location = "https://juliamanifolds.github.io/Manifolds.jl/stable/"
+method = "hosted"
+
+[3362f125-f0bb-47a3-aa74-596ffd7ef2fb]
+name = "ManifoldsBase"
+location = "https://juliamanifolds.github.io/ManifoldsBase.jl/stable/"
 method = "hosted"
 
 [0fc0a36d-df90-57f3-8f93-d78a9fc72bb5]
