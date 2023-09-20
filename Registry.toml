@@ -178,6 +178,11 @@ name = "DEDataArrays"
 location = "https://docs.sciml.ai"
 method = "hosted"
 
+[a3a2b9e3-a471-40c9-b274-f788e487c689]
+name = "Rasters"
+location = "https://rafaqz.github.io/Rasters.jl"
+method = "hosted"
+
 [abcecc63-2b08-419c-80c4-c63dca6fa478]
 name = "MathML"
 location = "https://docs.sciml.ai"
