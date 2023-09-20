@@ -178,7 +178,7 @@ name = "DEDataArrays"
 location = "https://docs.sciml.ai"
 method = "hosted"
 
-[0703355e-b756-11e9-17c0-8b28908087d0"]
+[0703355e-b756-11e9-17c0-8b28908087d0]
 name = "DimensionalData"
 location = "https://rafaqz.github.io/DimensionalData.jl"
 method = "hosted"
