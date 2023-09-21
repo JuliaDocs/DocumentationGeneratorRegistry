@@ -387,3 +387,13 @@ method = "hosted"
 name = "Luxor"
 location = "https://juliagraphics.github.io/Luxor.jl/stable/"
 method = "hosted"
+
+[8a270532-f23f-47a8-83a9-b33d10cad486]
+name = "QuantumControl"
+location = "https://juliaquantumcontrol.github.io/QuantumControl.jl/stable/"
+method = "hosted"
+
+[7bf12567-5742-4b91-a078-644e72a65fc1]
+name = "QuantumPropagators"
+location = "https://juliaquantumcontrol.github.io/QuantumPropagators.jl/stable/"
+method = "hosted"
