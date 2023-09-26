@@ -397,3 +397,8 @@ method = "hosted"
 name = "QuantumPropagators"
 location = "https://juliaquantumcontrol.github.io/QuantumPropagators.jl/stable/"
 method = "hosted"
+
+[29bf0bfc-420f-4fa5-b441-811fd9e6e11d]
+name = "SpaceLiDAR"
+location = "https://www.evetion.nl/SpaceLiDAR.jl/stable/"
+method = "hosted"
