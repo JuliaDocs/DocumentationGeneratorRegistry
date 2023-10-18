@@ -30,7 +30,7 @@ method = "hosted"
 
 [dcc97b0b-8ce5-5539-9008-bb190f959ef6]
 name = "GeoStats"
-location = "https://juliaearth.github.io/GeoStats.jl/stable"
+location = "https://juliaearth.github.io/GeoStatsDocs/stable/"
 method = "hosted"
 
 [65888b18-ceab-5e60-b2b9-181511a3b968]
