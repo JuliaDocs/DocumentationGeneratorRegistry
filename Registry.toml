@@ -98,6 +98,11 @@ name = "DiffEqParamEstim"
 location = "https://docs.sciml.ai"
 method = "hosted"
 
+[daee34ce-89f3-4625-b898-19384cb65244]
+name = "DocumenterCitations"
+location = "https://juliadocs.org/DocumenterCitations.jl/stable/"
+method = "hosted"
+
 [a38d70fc-99f5-11e9-1e3d-cbca093024c3]
 name = "Omniscape"
 location = "https://docs.circuitscape.org/Omniscape.jl/stable/"
