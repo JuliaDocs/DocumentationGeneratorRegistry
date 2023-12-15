@@ -412,3 +412,13 @@ method = "hosted"
 name = "SciMLBenchmarks"
 location = "https://docs.sciml.ai"
 method = "hosted"
+
+[21c4ae29-9918-4bcb-9542-b100d366d64c]
+name = "StrategicGames"
+location = "https://sylvaticus.github.io/StrategicGames.jl"
+method = "hosted"
+
+[2c8bf0fc5-5617-4766-b222-31d2f659b756]
+name = "BDisposal"
+location = "https://sylvaticus.github.io/BDisposal.jl"
+method = "hosted"
