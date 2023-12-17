@@ -418,7 +418,7 @@ name = "StrategicGames"
 location = "https://sylvaticus.github.io/StrategicGames.jl"
 method = "hosted"
 
-[2c8bf0fc5-5617-4766-b222-31d2f659b756]
+[c8bf0fc5-5617-4766-b222-31d2f659b756]
 name = "BDisposal"
 location = "https://sylvaticus.github.io/BDisposal.jl"
 method = "hosted"
