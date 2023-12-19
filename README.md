@@ -6,7 +6,7 @@ This registry allows package authors to specify where to find and how to build t
 packages displayed on e.g. [juliahub.com](https://juliahub.com/ui/Packages).
 
 ## Usage
-Just add a new entry to `Registry.toml` by hand (see `Specifications` below) or with the provided `add_to_registry.jl` script:
+Just add a new entry to `Registry.toml` by hand following the `Specifications` below (order doesn't matter) or with the provided `add_to_registry.jl` script:
 ```
 julia add_to_registry.jl Package1 Package2 Package3
 ```
