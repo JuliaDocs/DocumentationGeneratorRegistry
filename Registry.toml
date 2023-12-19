@@ -13,6 +13,26 @@ name = "SciMLSensitivity"
 location = "https://docs.sciml.ai"
 method = "hosted"
 
+[a6e380b2-a6ca-5380-bf3e-84a91bcd477e]
+name = "ControlSystems"
+location = "https://juliacontrol.github.io/ControlSystems.jl"
+method = "hosted"
+
+[aaaaaaaa-a6ca-5380-bf3e-84a91bcd477e]
+name = "ControlSystemsBase"
+location = "https://juliacontrol.github.io/ControlSystems.jl"
+method = "hosted"
+
+[21fd56a4-db03-40ee-82ee-a87907bee541]
+name = "RobustAndOptimalControl"
+location = "https://juliacontrol.github.io/RobustAndOptimalControl.jl"
+method = "hosted"
+
+[687d7614-c7e5-45fc-bfc3-9ee385575c88]
+name = "ControlSystemsMTK"
+location = "https://juliacontrol.github.io/ControlSystemsMTK.jl"
+method = "hosted"
+
 [7e49a35a-f44a-4d26-94aa-eba1b4ca6b47]
 name = "RuntimeGeneratedFunctions"
 location = "https://docs.sciml.ai"
