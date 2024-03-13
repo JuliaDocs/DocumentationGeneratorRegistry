@@ -13,29 +13,14 @@ name = "SciMLSensitivity"
 location = "https://docs.sciml.ai"
 method = "hosted"
 
-[a6e380b2-a6ca-5380-bf3e-84a91bcd477e]
-name = "ControlSystems"
-location = "https://juliacontrol.github.io/ControlSystems.jl"
-method = "hosted"
-
-[aaaaaaaa-a6ca-5380-bf3e-84a91bcd477e]
-name = "ControlSystemsBase"
-location = "https://juliacontrol.github.io/ControlSystems.jl"
-method = "hosted"
-
-[21fd56a4-db03-40ee-82ee-a87907bee541]
-name = "RobustAndOptimalControl"
-location = "https://juliacontrol.github.io/RobustAndOptimalControl.jl"
-method = "hosted"
-
-[687d7614-c7e5-45fc-bfc3-9ee385575c88]
-name = "ControlSystemsMTK"
-location = "https://juliacontrol.github.io/ControlSystemsMTK.jl"
-method = "hosted"
-
 [7e49a35a-f44a-4d26-94aa-eba1b4ca6b47]
 name = "RuntimeGeneratedFunctions"
 location = "https://docs.sciml.ai"
+method = "hosted"
+
+[5a0628fe-1738-4658-9b6d-0b7605a9755b]
+name = "Supposition"
+location = "https://seelengrab.github.io/Supposition.jl/"
 method = "hosted"
 
 [5411918f-e61c-4722-a33e-8517a813f4bd]
@@ -153,6 +138,11 @@ name = "Omniscape"
 location = "https://docs.circuitscape.org/Omniscape.jl/stable/"
 method = "hosted"
 
+[97f35ef4-7bc5-4ec1-a41a-dcc69c7308c6]
+name = "RequiredInterfaces"
+location = "https://seelengrab.github.io/RequiredInterfaces.jl/"
+method = "hosted"
+
 [537997a7-5e4e-5d89-9595-2241ea00577e]
 name = "AbstractPlotting"
 location = "https://docs.makie.org"
@@ -233,6 +223,11 @@ name = "Static"
 location = "https://docs.sciml.ai"
 method = "hosted"
 
+[21c4ae29-9918-4bcb-9542-b100d366d64c]
+name = "StrategicGames"
+location = "https://sylvaticus.github.io/StrategicGames.jl"
+method = "hosted"
+
 [754358af-613d-5f8d-9788-280bf1605d4c]
 name = "DEDataArrays"
 location = "https://docs.sciml.ai"
@@ -273,9 +268,19 @@ name = "DataDrivenDiffEq"
 location = "https://docs.sciml.ai"
 method = "hosted"
 
+[c8bf0fc5-5617-4766-b222-31d2f659b756]
+name = "BDisposal"
+location = "https://sylvaticus.github.io/BDisposal.jl"
+method = "hosted"
+
 [94925ecb-adb7-4558-8ed8-f975c56a0bf4]
 name = "MethodOfLines"
 location = "https://docs.sciml.ai"
+method = "hosted"
+
+[a6e380b2-a6ca-5380-bf3e-84a91bcd477e]
+name = "ControlSystems"
+location = "https://juliacontrol.github.io/ControlSystems.jl"
 method = "hosted"
 
 [34035eb4-37db-58ae-b003-a3202c898701]
@@ -286,6 +291,11 @@ method = "hosted"
 [47965b36-3f3e-11e9-0dcf-4570dfd42a8c]
 name = "RootedTrees"
 location = "https://docs.sciml.ai"
+method = "hosted"
+
+[21fd56a4-db03-40ee-82ee-a87907bee541]
+name = "RobustAndOptimalControl"
+location = "https://juliacontrol.github.io/RobustAndOptimalControl.jl"
 method = "hosted"
 
 [1aa9af3a-2424-508f-bb7e-0626de155470]
@@ -303,9 +313,19 @@ name = "DASSL"
 location = "https://docs.sciml.ai"
 method = "hosted"
 
+[3debba03-e216-4816-844a-cb4454e272d5]
+name = "FieldFlags"
+location = "https://seelengrab.github.io/FieldFlags.jl/"
+method = "hosted"
+
 [5b8d5e80-5788-45cb-83d6-5e8f1484217d]
 name = "ManoptExamples"
 location = "https://juliamanifolds.github.io/ManoptExamples.jl/"
+method = "hosted"
+
+[aaaaaaaa-a6ca-5380-bf3e-84a91bcd477e]
+name = "ControlSystemsBase"
+location = "https://juliacontrol.github.io/ControlSystems.jl"
 method = "hosted"
 
 [0bca4576-84f4-4d90-8ffe-ffa030f20462]
@@ -356,6 +376,11 @@ method = "hosted"
 [112f6efa-9a02-5b7d-90c0-432ed331239a]
 name = "VegaLite"
 location = "https://www.queryverse.org/VegaLite.jl/stable/"
+method = "hosted"
+
+[687d7614-c7e5-45fc-bfc3-9ee385575c88]
+name = "ControlSystemsMTK"
+location = "https://juliacontrol.github.io/ControlSystemsMTK.jl"
 method = "hosted"
 
 [ae8d54c2-7ccd-5906-9d76-62fc9837b5bc]
@@ -431,14 +456,4 @@ method = "hosted"
 [31c91b34-3c75-11e9-0341-95557aab0344]
 name = "SciMLBenchmarks"
 location = "https://docs.sciml.ai"
-method = "hosted"
-
-[21c4ae29-9918-4bcb-9542-b100d366d64c]
-name = "StrategicGames"
-location = "https://sylvaticus.github.io/StrategicGames.jl"
-method = "hosted"
-
-[c8bf0fc5-5617-4766-b222-31d2f659b756]
-name = "BDisposal"
-location = "https://sylvaticus.github.io/BDisposal.jl"
 method = "hosted"
