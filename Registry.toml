@@ -353,6 +353,11 @@ name = "DASKR"
 location = "https://docs.sciml.ai"
 method = "hosted"
 
+[3938faea-3bfa-4bc3-8092-0c6746ff9af1]
+name = "EntropyHub"
+location = "https://mattwillflood.github.io/EntropyHub.jl/"
+method = "hosted"
+
 [7f7a1694-90dd-40f0-9382-eb1efda571ba]
 name = "Optimization"
 location = "https://docs.sciml.ai"
