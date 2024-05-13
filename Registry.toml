@@ -1,3 +1,8 @@
+[e9467ef8-e4e7-5192-8a1a-b1aee30e663a]
+name = "GLMakie"
+location = "https://docs.makie.org"
+method = "hosted"
+
 [77a26b50-5914-5dd7-bc55-306e6241c503]
 name = "DiffEqNoiseProcess"
 location = "https://docs.sciml.ai"
@@ -103,6 +108,11 @@ name = "DiffEqSensitivity"
 location = "https://docs.sciml.ai/"
 method = "hosted"
 
+[3251bfac-6a57-4b6d-aa61-ac1fef2975ab]
+name = "GeometryOps"
+location = "https://juliageo.org/GeometryOps.jl"
+method = "hosted"
+
 [c030b06c-0b6d-57c2-b091-7029874bd033]
 name = "ODE"
 location = "https://docs.sciml.ai"
@@ -121,6 +131,11 @@ method = "hosted"
 [1c8ee90f-4401-5389-894e-7a04a3dc0f4d]
 name = "IterableTables"
 location = "https://www.queryverse.org/IterableTables.jl/stable/"
+method = "hosted"
+
+[13f3f980-e62b-5c42-98c6-ff1f3baf88f0]
+name = "CairoMakie"
+location = "https://docs.makie.org"
 method = "hosted"
 
 [1130ab10-4a5a-5621-a13d-e4788d82bd4c]
@@ -251,6 +266,11 @@ method = "hosted"
 [1cead3c2-87b3-11e9-0ccd-23c62b72b94e]
 name = "Manifolds"
 location = "https://juliamanifolds.github.io/Manifolds.jl/stable/"
+method = "hosted"
+
+[276b4fcb-3e11-5398-bf8b-a0c2d153d008]
+name = "WGLMakie"
+location = "https://docs.makie.org"
 method = "hosted"
 
 [055956cb-9e8b-5191-98cc-73ae4a59e68a]
@@ -393,6 +413,11 @@ name = "Luxor"
 location = "https://juliagraphics.github.io/Luxor.jl/stable/"
 method = "hosted"
 
+[20f20a25-4f0e-4fdf-b5d1-57303727442b]
+name = "MakieCore"
+location = "https://docs.makie.org"
+method = "hosted"
+
 [c52e3926-4ff0-5f6e-af25-54175e0327b1]
 name = "Atom"
 location = "https://docs.junolab.org/latest"
@@ -461,4 +486,9 @@ method = "hosted"
 [31c91b34-3c75-11e9-0341-95557aab0344]
 name = "SciMLBenchmarks"
 location = "https://docs.sciml.ai"
+method = "hosted"
+
+[22d9f318-5e34-4b44-b769-6e3734a732a6]
+name = "RPRMakie"
+location = "https://docs.makie.org"
 method = "hosted"
