@@ -31,8 +31,9 @@ function testkeyvalidity(registry, key)
         uri = entry["location"]
         if method in ("git-repo", "hosted")
             if isurlish(uri)
+                uri_no_fragment = split(uri, "#")[1]
                 try
-                    req = HTTP.request("GET", uri)
+                    req = HTTP.request("GET", uri_no_fragment)
                     if req.status > 400
                         @error("""
                               `$(uri)` returned `$(req.status)` for `$(name)` ($(uuid)).
@@ -44,7 +45,7 @@ function testkeyvalidity(registry, key)
                     @error("""
                           `$(uri)` request failed for `$(name)` ($(uuid)).
                           Please double check the URL.
-                          """, exception=(err, catch_backtrace()))
+                          """, exception = (err, catch_backtrace()))
                     return false
                 end
             else
