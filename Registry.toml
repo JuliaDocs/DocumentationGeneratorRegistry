@@ -28,6 +28,11 @@ name = "Supposition"
 location = "https://seelengrab.github.io/Supposition.jl/"
 method = "hosted"
 
+[c7d4f63d-6dfa-4fdc-9408-5961e0889e3a]
+name = "BokehBlink"
+location = "https://cjdoris.github.io/Bokeh.jl/stable/misc/#Blink"
+method = "hosted"
+
 [5411918f-e61c-4722-a33e-8517a813f4bd]
 name = "QuantumNLDiffEq"
 location = "https://docs.sciml.ai"
@@ -136,6 +141,11 @@ method = "hosted"
 [13f3f980-e62b-5c42-98c6-ff1f3baf88f0]
 name = "CairoMakie"
 location = "https://docs.makie.org"
+method = "hosted"
+
+[6099a3de-0909-46bc-b1f4-468b9a2dfc0d]
+name = "PythonCall"
+location = "https://juliapy.github.io/PythonCall.jl/stable/"
 method = "hosted"
 
 [1130ab10-4a5a-5621-a13d-e4788d82bd4c]
@@ -391,6 +401,11 @@ method = "hosted"
 [ebbdde9d-f333-5424-9be2-dbf1e9acfb5e]
 name = "DiffEqBayes"
 location = "https://docs.sciml.ai"
+method = "hosted"
+
+[c4b4474d-016b-471b-b14f-576041b951ff]
+name = "Bokeh"
+location = "https://cjdoris.github.io/Bokeh.jl/stable/"
 method = "hosted"
 
 [3362f125-f0bb-47a3-aa74-596ffd7ef2fb]
