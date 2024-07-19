@@ -388,6 +388,11 @@ name = "EntropyHub"
 location = "https://mattwillflood.github.io/EntropyHub.jl/stable/"
 method = "hosted"
 
+[dbd62bd0-c9f5-5087-a2e1-f5c4bb0cec90]
+name = "MakieGallery"
+location = "https://docs.makie.org/stable/"
+method = "hosted"
+
 [7f7a1694-90dd-40f0-9382-eb1efda571ba]
 name = "Optimization"
 location = "https://docs.sciml.ai"
