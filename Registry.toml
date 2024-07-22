@@ -73,6 +73,11 @@ name = "DifferenceEquations"
 location = "https://docs.sciml.ai"
 method = "hosted"
 
+[927a84f5-c5f4-47a5-9785-b46e178433df]
+name = "DelaunayTriangulation"
+location = "https://juliageometry.github.io/DelaunayTriangulation.jl/stable/"
+method = "hosted"
+
 [09606e27-ecf5-54fc-bb29-004bd9f985bf]
 name = "ODEInterfaceDiffEq"
 location = "https://docs.sciml.ai"
@@ -151,6 +156,11 @@ method = "hosted"
 [1130ab10-4a5a-5621-a13d-e4788d82bd4c]
 name = "DiffEqParamEstim"
 location = "https://docs.sciml.ai"
+method = "hosted"
+
+[d4f04ab7-4f65-4d72-8a28-7087bc7f46f4]
+name = "FiniteVolumeMethod"
+location = "https://github.com/SciML/FiniteVolumeMethod.jl"
 method = "hosted"
 
 [af67fdf4-a580-4b9f-bbec-742ef357defd]
@@ -283,6 +293,11 @@ name = "WGLMakie"
 location = "https://docs.makie.org"
 method = "hosted"
 
+[f16ad982-4edb-46b1-8125-78e5a8b5a9e6]
+name = "NaturalNeighbours"
+location = "https://danielvandh.github.io/NaturalNeighbours.jl/stable/"
+method = "hosted"
+
 [055956cb-9e8b-5191-98cc-73ae4a59e68a]
 name = "DiffEqPhysics"
 location = "https://docs.sciml.ai"
@@ -396,6 +411,11 @@ method = "hosted"
 [7f7a1694-90dd-40f0-9382-eb1efda571ba]
 name = "Optimization"
 location = "https://docs.sciml.ai"
+method = "hosted"
+
+[3fca794e-44fa-49a6-b6a0-8cd45572ba0a]
+name = "ProfileLikelihood"
+location = "https://danielvandh.github.io/ProfileLikelihood.jl/stable/"
 method = "hosted"
 
 [5a33fad7-5ce4-5983-9f5d-5f26ceab5c96]
