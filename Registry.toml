@@ -193,6 +193,11 @@ name = "VoronoiFVM"
 location = "https://j-fu.github.io/VoronoiFVM.jl"
 method = "hosted"
 
+[c5d3f3f7-f850-59f6-8a2e-ffc6dc1317ea]
+name = "TetGen"
+location = "https://juliageometry.github.io/TetGen.jl"
+method = "hosted"
+
 [537997a7-5e4e-5d89-9595-2241ea00577e]
 name = "AbstractPlotting"
 location = "https://docs.makie.org"
@@ -216,6 +221,11 @@ method = "hosted"
 [684fba80-ace3-11e9-3d08-3bc7ed6f96df]
 name = "SparsityDetection"
 location = "https://docs.sciml.ai"
+method = "hosted"
+
+[12fb9182-3d4c-4424-8fd1-727a0899810c]
+name = "ExtendableFEMBase"
+location = "https://chmerdon.github.io/ExtendableFEMBase.jl"
 method = "hosted"
 
 [ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a]
@@ -266,6 +276,11 @@ method = "hosted"
 [2b5f629d-d688-5b77-993f-72d75c75574e]
 name = "DiffEqBase"
 location = "https://docs.sciml.ai"
+method = "hosted"
+
+[f7e6ffb2-c36d-4f8f-a77e-16e897189344]
+name = "Triangulate"
+location = "https://juliageometry.github.io/Triangulate.jl"
 method = "hosted"
 
 [aedffcd0-7271-4cad-89d0-dc628f76c6d3]
@@ -411,6 +426,11 @@ method = "hosted"
 [5b8d5e80-5788-45cb-83d6-5e8f1484217d]
 name = "ManoptExamples"
 location = "https://juliamanifolds.github.io/ManoptExamples.jl/"
+method = "hosted"
+
+[a722555e-65e0-4074-a036-ca7ce79a4aed]
+name = "ExtendableFEM"
+location = "https://chmerdon.github.io/ExtendableFEM.jl"
 method = "hosted"
 
 [aaaaaaaa-a6ca-5380-bf3e-84a91bcd477e]
@@ -581,6 +601,11 @@ method = "hosted"
 [9672c7b4-1e72-59bd-8a11-6ac3964bc41f]
 name = "SteadyStateDiffEq"
 location = "https://docs.sciml.ai"
+method = "hosted"
+
+[0802c0ca-1768-4022-988c-6dd5f9588a11]
+name = "GradientRobustMultiPhysics"
+location = "https://chmerdon.github.io/GradientRobustMultiPhysics.jl"
 method = "hosted"
 
 [31c91b34-3c75-11e9-0341-95557aab0344]
