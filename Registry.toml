@@ -53,6 +53,11 @@ name = "ModelingToolkit"
 location = "https://docs.sciml.ai/ModelingToolkit/stable/"
 method = "hosted"
 
+[646e1f28-b900-46d7-9d87-d554eb38a413]
+name = "PlutoVista"
+location = "https://j-fu.github.io/PlutoVista.jl"
+method = "hosted"
+
 [1143c485-9b25-4e23-a65f-701df382ec90]
 name = "ManifoldDiffEq"
 location = "https://juliamanifolds.github.io/ManifoldDiffEq.jl/stable/"
@@ -66,6 +71,11 @@ method = "hosted"
 [afe9f18d-7609-4d0e-b7b7-af0cb72b8ea8]
 name = "SciMLExpectations"
 location = "https://docs.sciml.ai"
+method = "hosted"
+
+[5eed8a63-0fb0-45eb-886d-8d5a387d12b8]
+name = "GridVisualize"
+location = "https://j-fu.github.io/GridVisualize.jl"
 method = "hosted"
 
 [e0ca9c66-1f9e-11ec-127a-1304ce62169c]
@@ -178,6 +188,11 @@ name = "RequiredInterfaces"
 location = "https://seelengrab.github.io/RequiredInterfaces.jl/"
 method = "hosted"
 
+[82b139dc-5afc-11e9-35da-9b9bdfd336f3]
+name = "VoronoiFVM"
+location = "https://j-fu.github.io/VoronoiFVM.jl"
+method = "hosted"
+
 [537997a7-5e4e-5d89-9595-2241ea00577e]
 name = "AbstractPlotting"
 location = "https://docs.makie.org"
@@ -283,6 +298,11 @@ name = "MathML"
 location = "https://docs.sciml.ai"
 method = "hosted"
 
+[95c220a8-a1cf-11e9-0c77-dbfce5f500b3]
+name = "ExtendableSparse"
+location = "https://j-fu.github.io/ExtendableSparse.jl"
+method = "hosted"
+
 [1cead3c2-87b3-11e9-0ccd-23c62b72b94e]
 name = "Manifolds"
 location = "https://juliamanifolds.github.io/Manifolds.jl/stable/"
@@ -298,9 +318,19 @@ name = "NaturalNeighbours"
 location = "https://danielvandh.github.io/NaturalNeighbours.jl/stable/"
 method = "hosted"
 
+[57bfcd06-606e-45d6-baf4-4ba06da0efd5]
+name = "SimplexGridFactory"
+location = "https://j-fu.github.io/SimplexGridFactory.jl"
+method = "hosted"
+
 [055956cb-9e8b-5191-98cc-73ae4a59e68a]
 name = "DiffEqPhysics"
 location = "https://docs.sciml.ai"
+method = "hosted"
+
+[89250b5f-5002-42e4-96e5-388c85c70594]
+name = "PDELib"
+location = "https://j-fu.github.io/PDELib.jl"
 method = "hosted"
 
 [e30172f5-a6a5-5a46-863b-614d45cd2de4]
@@ -353,14 +383,29 @@ name = "QuantumControl"
 location = "https://juliaquantumcontrol.github.io/QuantumControl.jl/stable/"
 method = "hosted"
 
+[5573ae12-3b76-41d9-b48c-81d0b6e61cc5]
+name = "GridVisualizeTools"
+location = "https://j-fu.github.io/GridVisualizeTools.jl"
+method = "hosted"
+
 [e993076c-0cfd-5d6b-a1ac-36489fdf7917]
 name = "DASSL"
 location = "https://docs.sciml.ai"
 method = "hosted"
 
+[4f76b812-4ba5-496d-b042-d70715554288]
+name = "AMGCLWrap"
+location = "https://j-fu.github.io/AMGCLWrap.jl"
+method = "hosted"
+
 [3debba03-e216-4816-844a-cb4454e272d5]
 name = "FieldFlags"
 location = "https://seelengrab.github.io/FieldFlags.jl/"
+method = "hosted"
+
+[5a7dfd8c-b3af-4c8d-a082-d3a774d75e72]
+name = "LiquidElectrolytes"
+location = "https://j-fu.github.io/LiquidElectrolytes.jl"
 method = "hosted"
 
 [5b8d5e80-5788-45cb-83d6-5e8f1484217d]
@@ -418,9 +463,19 @@ name = "ProfileLikelihood"
 location = "https://danielvandh.github.io/ProfileLikelihood.jl/stable/"
 method = "hosted"
 
+[3bbe58f8-ed81-4c4e-a134-03e85fcf4a1a]
+name = "ExampleJuggler"
+location = "https://j-fu.github.io/ExampleJuggler.jl"
+method = "hosted"
+
 [5a33fad7-5ce4-5983-9f5d-5f26ceab5c96]
 name = "GeometricIntegratorsDiffEq"
 location = "https://docs.sciml.ai"
+method = "hosted"
+
+[cfc395e8-590f-11e8-1f13-43a2532b2fa8]
+name = "ExtendableGrids"
+location = "https://j-fu.github.io/ExtendableGrids.jl"
 method = "hosted"
 
 [ebbdde9d-f333-5424-9be2-dbf1e9acfb5e]
@@ -491,6 +546,11 @@ method = "hosted"
 [587475ba-b771-5e3f-ad9e-33799f191a9c]
 name = "Flux"
 location = "https://fluxml.ai/Flux.jl/stable/"
+method = "hosted"
+
+[f29f6376-6e90-4d80-80c9-fb8ec61203d5]
+name = "LessUnitful"
+location = "https://j-fu.github.io/LessUnitful.jl"
 method = "hosted"
 
 [071ae1c0-96b5-11e9-1965-c90190d839ea]
