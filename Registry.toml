@@ -178,6 +178,11 @@ name = "RequiredInterfaces"
 location = "https://seelengrab.github.io/RequiredInterfaces.jl/"
 method = "hosted"
 
+[c5d3f3f7-f850-59f6-8a2e-ffc6dc1317ea]
+name = "TetGen"
+location = "https://juliageometry.github.io/TetGen.jl"
+method = "hosted"
+
 [537997a7-5e4e-5d89-9595-2241ea00577e]
 name = "AbstractPlotting"
 location = "https://docs.makie.org"
@@ -251,6 +256,11 @@ method = "hosted"
 [2b5f629d-d688-5b77-993f-72d75c75574e]
 name = "DiffEqBase"
 location = "https://docs.sciml.ai"
+method = "hosted"
+
+[f7e6ffb2-c36d-4f8f-a77e-16e897189344]
+name = "Triangulate"
+location = "https://juliageometry.github.io/Triangulate.jl"
 method = "hosted"
 
 [aedffcd0-7271-4cad-89d0-dc628f76c6d3]
