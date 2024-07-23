@@ -330,7 +330,7 @@ method = "hosted"
 
 [89250b5f-5002-42e4-96e5-388c85c70594]
 name = "PDELib"
-location = "https://j-fu.github.io/PDELib.jl"
+location = "https://wias-berlin.github.io/PDELib.jl"
 method = "hosted"
 
 [e30172f5-a6a5-5a46-863b-614d45cd2de4]
