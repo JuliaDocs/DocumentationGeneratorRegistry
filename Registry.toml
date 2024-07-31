@@ -617,3 +617,18 @@ method = "hosted"
 name = "RPRMakie"
 location = "https://docs.makie.org"
 method = "hosted"
+
+[c43c736e-a2d1-11e8-161f-af95117fbd1e]
+name = "Genie"
+location = "https://learn.genieframework.com"
+method = "hosted"
+
+[4acbeb90-81a0-11ea-1966-bdaff8155998]
+name = "Stipple"
+location = "https://learn.genieframework.com"
+method = "hosted"
+
+[340e8cb6-72eb-11e8-37ce-c97ebeb32050]
+name = "SearchLight"
+location = "https://learn.genieframework.com"
+method = "hosted"
